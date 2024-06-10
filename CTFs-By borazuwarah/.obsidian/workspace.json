@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "3656dec32a1278ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "33b4239f5f019065",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f02396374b13862",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DockerLabs/Vacaciones/Vacaciones.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "12f3162991ab2c1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a39317ac86cb060d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80565e93cfbaa2f1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "94d1d5c710eb1b70",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "23108cb247464870",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5a048740ffb0544e",
+    "type": "split",
+    "children": [
+      {
+        "id": "03c0d4d279877fd5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b26649edc494df2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DockerLabs/Vacaciones/Vacaciones.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9f7eb4e9f64c7fde",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DockerLabs/Vacaciones/Vacaciones.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "23ae4cb749a52bc9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c0b425de8342c235",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DockerLabs/Vacaciones/Vacaciones.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "80565e93cfbaa2f1",
+  "lastOpenFiles": [
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Root access.png",
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Intento acceso rrot.png",
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Hydra p 22 usuario camilo.png",
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Fichero de correo encontrado.png",
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Despliegue me maquina.png",
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Codigo Fuente.png",
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso usuario Juan.png",
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - acceso por ssh usuario camilo.png",
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacacioens - Nmap result.png",
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacacioens -  Vacaciones web.png",
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacacioens -  Script Vulnerabilidad P22.png",
+    "DockerLabs/Vacaciones/Images",
+    "DockerLabs/Vacaciones",
+    "My CTFs.md",
+    "DockerLabs/Vacaciones/Vacaciones.md",
+    "DockerLabs"
+  ]
+}
