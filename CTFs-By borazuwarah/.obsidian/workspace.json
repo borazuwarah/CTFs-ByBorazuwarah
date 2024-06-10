@@ -11,11 +11,9 @@
             "id": "f625f9fee1d0f148",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
-                "mode": "source",
-                "source": false
+                "file": "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso usuario Juan 2.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
+                "file": "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso usuario Juan 2.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
+                "file": "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso usuario Juan 2.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md"
+                "file": "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso usuario Juan 2.png"
               }
             }
           }
@@ -146,10 +144,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "f625f9fee1d0f148",
+  "active": "80565e93cfbaa2f1",
   "lastOpenFiles": [
-    "My CTFs.md",
     "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
+    "My CTFs.md",
     "[CTFs-ByBorazuwarah/CTFs-By.md",
     "![[Pasted.md",
     "Pasted image 20240610164743.png",
