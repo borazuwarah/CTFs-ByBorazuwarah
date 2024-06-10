@@ -65,13 +65,15 @@ sudo nmap --script "vuln" -p22 172.17.0.2
 
 
 Descubrimos la misma vulnerabilidad
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacacioens%20-%20%20Script%20Vulnerabilidad%20P22.png?raw=true)
 
 
-![[Dockerlabs - Vacacioens -  Script Vulnerabilidad P22.png]]
+
 no parece que podamos explotar nada
+![image](
 
 
-![[Dockerlabs - Vacacioens -  Vacaciones web.png]]
+![[Dockerlabs - Vacacioens - Web.png]]
 
 Al parecer no hay nada en la web:
 Vamos a ver el código fuente:
@@ -110,7 +112,7 @@ ssh camilo@T172.17.0.2
 ```
 
 acceso con camilo:
-![[Dockerlabs - Vacaciones - acceso por ssh usuario camilo.png]]
+![[Dockerlabs - Vacaciones - Acceso por ssh usuario camilo.png]]
 
 ## escalada de privilegios:
 sudo -l

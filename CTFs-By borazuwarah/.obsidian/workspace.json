@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "25c550e5f0496d98",
+        "id": "1768532e8b37d46e",
         "type": "tabs",
         "children": [
           {
-            "id": "8c7d843592da2732",
+            "id": "f625f9fee1d0f148",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
-                "mode": "source",
-                "source": false
+                "file": "DockerLabs/Vacaciones/Images/Dockerlabs - Vacacioens - Web.png"
               }
             }
           }
@@ -69,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 478.5
   },
   "right": {
     "id": "5a048740ffb0544e",
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
+                "file": "DockerLabs/Vacaciones/Images/Dockerlabs - Vacacioens - Web.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
+                "file": "DockerLabs/Vacaciones/Images/Dockerlabs - Vacacioens - Web.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md"
+                "file": "DockerLabs/Vacaciones/Images/Dockerlabs - Vacacioens - Web.png"
               }
             }
           }
@@ -146,12 +144,13 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "8c7d843592da2732",
+  "active": "f625f9fee1d0f148",
   "lastOpenFiles": [
-    "Pasted image 20240610163450.png",
-    "Pasted image 20240610163205.png",
-    "[CTFs-ByBorazuwarah/CTFs-By.md",
     "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
+    "Pasted image 20240610163205.png",
+    "Pasted image 20240610163450.png",
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso por ssh usuario camilo.png",
+    "[CTFs-ByBorazuwarah/CTFs-By.md",
     "[CTFs-ByBorazuwarah",
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Root access.png",
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Intento acceso rrot.png",
@@ -160,8 +159,6 @@
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Despliegue me maquina.png",
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Codigo Fuente.png",
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso usuario Juan.png",
-    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - acceso por ssh usuario camilo.png",
-    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacacioens - Nmap result.png",
     "DockerLabs/Vacaciones/Images",
     "DockerLabs/Vacaciones",
     "My CTFs.md",
