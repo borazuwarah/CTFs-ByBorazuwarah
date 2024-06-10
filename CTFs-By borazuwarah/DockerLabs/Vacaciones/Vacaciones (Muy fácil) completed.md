@@ -71,14 +71,12 @@ Descubrimos la misma vulnerabilidad
 
 no parece que podamos explotar nada
 ![image](
-
-
-![[Dockerlabs - Vacacioens - Web.png]]
-
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacacioens%20-%20Web.png?raw=true)
 Al parecer no hay nada en la web:
 Vamos a ver el código fuente:
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacaciones%20-%20Codigo%20Fuente.png?raw=true)
 
-![[Dockerlabs - Vacaciones - Codigo Fuente.png]]
+
 y nos encontramos un mensaje:
 
 <!-- De : Juan Para: Camilo , te he dejado un correo es importante... -->
@@ -99,10 +97,8 @@ Como no conocemos la contraseña, solo podemos hacer fuerza bruta con Hydra
 hydra -l camilo -P /usr/share/wordlists/rockyou.txt ssh://172.17.0.2
 ```
 
-![[Dockerlabs - Vacaciones - Hydra p 22 usuario camilo.png]]
-
 User: camilo  
-password: password1
+password: ****************
 
 
 intentamos hacer login por ssh
@@ -112,7 +108,8 @@ ssh camilo@T172.17.0.2
 ```
 
 acceso con camilo:
-![[Dockerlabs - Vacaciones - Acceso por ssh usuario camilo.png]]
+
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacaciones%20-%20acceso%20por%20ssh%20usuario%20camilo.png?raw=true)
 
 ## escalada de privilegios:
 sudo -l
@@ -134,12 +131,11 @@ No result
 Seguimos buscando
 find / type f -name "*.txt" todos los ficheros txt:
 
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacaciones%20-%20Fichero%20de%20correo%20encontrado.png?raw=true)
 
-![[Dockerlabs - Vacaciones - Fichero de correo encontrado.png]]
+vemos este fichero:  correo.txt que si tenemos acceso, vamos a abrirlo
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacacioens%20-%20%20Contenido%20fichero%20correo.png?raw=true)
 
-nos llama la atención este fichero  correo.txt que si tenemos acceso, vamos a abrirlo
-
-![[Dockerlabs - Vacacioens -  Contenido fichero correo.png]]
 
 Contenido:
 Hola Camilo,
@@ -147,15 +143,13 @@ Hola Camilo,
 Me voy de vacaciones y no he terminado el trabajo que me dio el jefe. Por si acaso lo pide, aquí tienes la contraseña: 2k84dicb
 
 Obtenemos una contraseña vamos a probarla con el usuario root:
-![[Dockerlabs - Vacaciones - Intento acceso rrot.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacaciones%20-%20Intento%20acceso%20rrot.png?raw=true)
 
 Pero hno accedemos
 también tenemos el usuario Juan vamos a probar con este usuario:
 
 Ahora is tenemos acceso con el usuario Junan:
-![[Dockerlabs - Vacaciones - Acceso usuario Juan.png]]
-
-
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacaciones%20-%20Acceso%20usuario%20Juan.png?raw=true)
 
 $ sudo -l
 Matching Defaults entries for juan on 2f317d25df18:
@@ -165,16 +159,15 @@ User juan may run the following commands on 2f317d25df18:
     (ALL) NOPASSWD: /usr/bin/ruby
 
 Buscamos esto en gyfobins:
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacacioens%20-%20%20Gtfobbins%20ruby%20sudo%20access.png?raw=true)
 
-![[Dockerlabs - Vacacioens -  Gtfobbins ruby sudo access.png]]
-
-ejecutamos este comando
+Ejecutamos este comando
 y conseguimos acceso root
-![[Dockerlabs - Vacaciones - Root access.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacaciones%20-%20Root%20access.png?raw=true)
 
 
 ahora vamos a  eliminar la maquina pulsando Ctrl+C
-![[Dockerlabs - Vacacioens -  Eliminar la maquina.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacacioens%20-%20%20Eliminar%20la%20maquina.png?raw=true)
 
 Maquina resuelta completamente!! :D
 
