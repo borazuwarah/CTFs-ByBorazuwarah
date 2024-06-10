@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "33b4239f5f019065",
+        "id": "25c550e5f0496d98",
         "type": "tabs",
         "children": [
           {
-            "id": "5f02396374b13862",
+            "id": "8c7d843592da2732",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DockerLabs/Vacaciones/Vacaciones.md",
+                "file": "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DockerLabs/Vacaciones/Vacaciones.md",
+                "file": "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DockerLabs/Vacaciones/Vacaciones.md",
+                "file": "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DockerLabs/Vacaciones/Vacaciones.md"
+                "file": "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md"
               }
             }
           }
@@ -146,8 +146,13 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "80565e93cfbaa2f1",
+  "active": "8c7d843592da2732",
   "lastOpenFiles": [
+    "Pasted image 20240610163450.png",
+    "Pasted image 20240610163205.png",
+    "[CTFs-ByBorazuwarah/CTFs-By.md",
+    "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
+    "[CTFs-ByBorazuwarah",
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Root access.png",
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Intento acceso rrot.png",
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Hydra p 22 usuario camilo.png",
@@ -157,12 +162,9 @@
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso usuario Juan.png",
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - acceso por ssh usuario camilo.png",
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacacioens - Nmap result.png",
-    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacacioens -  Vacaciones web.png",
-    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacacioens -  Script Vulnerabilidad P22.png",
     "DockerLabs/Vacaciones/Images",
     "DockerLabs/Vacaciones",
     "My CTFs.md",
-    "DockerLabs/Vacaciones/Vacaciones.md",
     "DockerLabs"
   ]
 }
