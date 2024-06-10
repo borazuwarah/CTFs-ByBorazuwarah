@@ -1,17 +1,16 @@
 
-plataforma: https://dockerlabs.es/#/
-Mirror: https://mega.nz/file/YCEGAISD#y6iWUG_auH4vUApClb9ix7H6JmOCKm4vAYS2TjQn59g
-Nombre: Vacaciones
-Dificultad: Muy fácil
-
-
+- Plataforma: https://dockerlabs.es/
+- Mirror: https://mega.nz/file/YCEGAISD#y6iWUG_auH4vUApClb9ix7H6JmOCKm4vAYS2TjQn59g
+- Nombre: Vacaciones
+- Dificultad: Muy fácil
+- Formato: Docker
 
 1 comprobamos si tenemos docker instalado de no ser así lo instalamos
 
 ```sh fold:"Comprobar si docker está instalado"
 docker -v
 ```
-
+Instalamos
 ```sh fold:"Instalacion de docker"
 sudo apt install docker.io
 ```
