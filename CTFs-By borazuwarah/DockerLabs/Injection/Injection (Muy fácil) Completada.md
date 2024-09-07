@@ -3,11 +3,11 @@ Mirror: https://mega.nz/file/wLN2nQ7B#p0YzUFAsrE3ilnJ9HzMr1hfsUq2DPYiDHlIU_9IEiz
 Nombre: Injection
 Dificultad: muy fácil
 Herramientas:
-[[Ping]]
-[[NMAP]]
-[[WhatWeb]]
-[[SQLMAP]]
-[[Puerto 22 SSH - SFTP]]
+- Ping
+- NMAP
+- WhatWeb
+- SQLMAP
+- Puerto 22 SSH - SFTP
 
 
 
@@ -16,11 +16,11 @@ Deploy:
 ```sh fold:"Deploy injection machine"
 sudo bash autodeploy.sh injection.tar
 ```
+![image]([https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacaciones%20-%20Despliegue%20me%20maquina.png?raw=true](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Deploy.png)
 
-![[DockerLabs - Injection - Deploy.png]]
 
 Ping para comprobar conectividad y ver el ttl: 64
-![[DockerLabs - Injection - Ping.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Ping.png)
 
 Reconocimiento
 ```sh fold:"Reconocimiento con nmap"
@@ -28,18 +28,18 @@ sudo nmap -sS -p- -sC -sV -Pn 172.17.0.2
 ```
 
 Puertos abiertos:
-![[DockerLabs - Injection - Nmap.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Nmap.png)
 
 Nos encontramos los puertos 
 - 22
 - 80
 Primero investigamos el puerto 80
 Web:
-![[DockerLabs - Injection - Web.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Web.png)
 
 WhatWeb no nos da mucha información
 
-![[DockerLabs - Injection - Whatweb.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Whatweb.png)
 
 Intento varios Usuarios y contraseñas pero conm ninguno acccedo, en todos me da el mensaje:
 Wrong Credentials
@@ -77,7 +77,7 @@ sqlmap -u http://172.17.0.2/index.php --forms -D -T users -C passwd,username --d
 
 ```
 Otra forma de hacer el Sql Injection:
-![[DockerLabs - Injection - SQL Injection manual.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20SQL%20Injection%20manual.png)
 
 Explicacion:
 Ahora bien, suponiendo que la consulta que busca un usuario en la base de datos es la siguiente:
@@ -92,32 +92,32 @@ Si insertamos la inyección SQL (`admin' OR 1=1 -- -`) en donde está el texto "
 SELECT * FROM usuarios WHERE username = 'admin' OR 1=1 -- - AND password = 'password';
 ```
 Esto es posible porque los parámetros de la consulta no están validados:
-![[DockerLabs - Injection - Codigo consulta sin validar.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Codigo%20consulta%20sin%20validar.png)
 
 
 Acceso con usuario dylan:
-![[DockerLabs - Injection - User access.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20User%20access.png)
 
 Vamos a intentar entrar por SSH con este usuario y esta contraseña:
 
 Acceso por ssh con el usuario dylan:
-![[DockerLabs - Injection - SSH dylan user.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20SSH%20dylan%20user.png)
 
 
 ## Escalada de privilegios
 sudo -l
-![[DockerLabs - Injection - sudo-l.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20sudo-l.png)
 
 find / -perm -4000 2>/dev/null
 
-![[DockerLabs - Injection - Suid.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Suid.png)
 
 Buscamos en Gtfobins algunos de estos suid
-![[DockerLabs - Injection - gtfobbins env.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20gtfobbins%20env.png)
 Encuentro env:
 lo ejecutamos con las rutas absolutas
 
 
-![[DockerLabs - Injection - Escalada de privilegiso.png]]
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Escalada%20de%20privilegiso.png)]
 
 DockerLabs - Injection -
