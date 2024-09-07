@@ -22,7 +22,7 @@ sudo bash autodeploy.sh injection.tar
 ```
 
 
-Ping para comprobar conectividad y ver el ttl: 64
+Ping para comprobar conectividad y ver el ttl: 64<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Ping.png)
 
 Reconocimiento
@@ -79,7 +79,7 @@ sqlmap -u http://172.17.0.2/index.php --forms -D -T users -C passwd,username --d
 # +------------------+----------+
 
 ```
-Otra forma de hacer el Sql Injection:
+Otra forma de hacer el Sql Injection:<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20SQL%20Injection%20manual.png)
 
 Explicacion:
