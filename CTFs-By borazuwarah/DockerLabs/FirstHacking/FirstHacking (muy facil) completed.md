@@ -58,7 +58,7 @@ set RHOSTS 172.17.0.2
 run
 ```
 <br>
-![image](/Images/Dockerlabs - FirstHacking - Metasploit encontrando el sploit.png) <br>
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Nmap%20con%20exploit%20al%20puerto%2021.png?raw=true) <br>
 
 
 metaesploit configuramos el IP destino:<br>
