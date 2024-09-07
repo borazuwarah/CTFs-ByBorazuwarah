@@ -1,13 +1,13 @@
-plataforma: https://dockerlabs.es/#/
-Mirror: https://mega.nz/file/wLN2nQ7B#p0YzUFAsrE3ilnJ9HzMr1hfsUq2DPYiDHlIU_9IEizU
-Nombre: Injection
-Dificultad: muy fácil
-Herramientas:
-- Ping
-- NMAP
-- WhatWeb
-- SQLMAP
-- Puerto 22 SSH - SFTP
+- plataforma: https://dockerlabs.es/#/
+- Mirror: https://mega.nz/file/wLN2nQ7B#p0YzUFAsrE3ilnJ9HzMr1hfsUq2DPYiDHlIU_9IEizU
+- Nombre: Injection
+- Dificultad: muy fácil
+- Herramientas:
+ - Ping
+ - NMAP
+ - WhatWeb
+ - SQLMAP
+ - Puerto 22 SSH - SFTP
 
 
 
