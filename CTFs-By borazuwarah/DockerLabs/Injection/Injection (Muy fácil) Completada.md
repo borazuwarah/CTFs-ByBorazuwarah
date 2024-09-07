@@ -96,11 +96,13 @@ Esto es posible porque los parámetros de la consulta no están validados:
 
 
 Acceso con usuario dylan:
+
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20User%20access.png)
 
 Vamos a intentar entrar por SSH con este usuario y esta contraseña:
 
 Acceso por ssh con el usuario dylan:
+
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20SSH%20dylan%20user.png)
 
 
