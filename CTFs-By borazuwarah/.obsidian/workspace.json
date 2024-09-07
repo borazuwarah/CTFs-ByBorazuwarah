@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1768532e8b37d46e",
+        "id": "a1e123e17f536338",
         "type": "tabs",
         "children": [
           {
-            "id": "f625f9fee1d0f148",
+            "id": "6755084b661c8f3a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso usuario Juan.png"
+                "file": "DockerLabs/Borazuwarah-CTF1/Borazuwarah - CTF1 (muy facil) completed.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso usuario Juan.png",
+                "file": "DockerLabs/Borazuwarah-CTF1/Borazuwarah - CTF1 (muy facil) completed.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso usuario Juan.png",
+                "file": "DockerLabs/Borazuwarah-CTF1/Borazuwarah - CTF1 (muy facil) completed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso usuario Juan.png"
+                "file": "DockerLabs/Borazuwarah-CTF1/Borazuwarah - CTF1 (muy facil) completed.md"
               }
             }
           }
@@ -144,10 +146,13 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "80565e93cfbaa2f1",
+  "active": "6755084b661c8f3a",
   "lastOpenFiles": [
-    "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
+    "DockerLabs/FirstHacking/FirstHacking (muy facil) completed.md",
+    "DockerLabs/Injection/Injection (Muy fácil) Completada.md",
     "My CTFs.md",
+    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Acceso usuario Juan.png",
+    "DockerLabs/Vacaciones/Vacaciones (Muy fácil) completed.md",
     "[CTFs-ByBorazuwarah/CTFs-By.md",
     "![[Pasted.md",
     "Pasted image 20240610164743.png",
@@ -160,7 +165,6 @@
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Root access.png",
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Intento acceso rrot.png",
     "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Hydra p 22 usuario camilo.png",
-    "DockerLabs/Vacaciones/Images/Dockerlabs - Vacaciones - Fichero de correo encontrado.png",
     "DockerLabs/Vacaciones/Images",
     "DockerLabs/Vacaciones",
     "DockerLabs"
