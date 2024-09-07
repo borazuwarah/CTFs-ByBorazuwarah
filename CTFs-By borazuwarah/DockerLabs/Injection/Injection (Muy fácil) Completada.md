@@ -1,8 +1,9 @@
-- plataforma: https://dockerlabs.es/#/
-- Mirror: https://mega.nz/file/wLN2nQ7B#p0YzUFAsrE3ilnJ9HzMr1hfsUq2DPYiDHlIU_9IEizU
-- Nombre: Injection
-- Dificultad: muy fácil
-- Herramientas:
+plataforma: https://dockerlabs.es/#/<br>
+Mirror: https://mega.nz/file/wLN2nQ7B#p0YzUFAsrE3ilnJ9HzMr1hfsUq2DPYiDHlIU_9IEizU<br>
+Nombre: Injection<br>
+Dificultad: muy fácil<br>
+Creador: El pingüino de Mario<br>
+Herramientas:
  - Ping
  - NMAP
  - WhatWeb
@@ -11,12 +12,14 @@
 
 
 
+Cacptura Máquina:
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Machine.png)
+
 Deploy:
 
 ```sh fold:"Deploy injection machine"
 sudo bash autodeploy.sh injection.tar
 ```
-![image]([https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Vacaciones/Images/Dockerlabs%20-%20Vacaciones%20-%20Despliegue%20me%20maquina.png?raw=true](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Deploy.png)
 
 
 Ping para comprobar conectividad y ver el ttl: 64
