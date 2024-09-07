@@ -12,7 +12,7 @@ Herramientas:
 
 
 
-Cacptura Máquina:
+Cacptura Máquina:<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Machine.png)
 
 Deploy:
@@ -30,18 +30,17 @@ Reconocimiento
 sudo nmap -sS -p- -sC -sV -Pn 172.17.0.2
 ```
 
-Puertos abiertos:
+Puertos abiertos:<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Nmap.png)
 
 Nos encontramos los puertos 
 - 22
 - 80
 Primero investigamos el puerto 80
-Web:
+Web:<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Web.png)
 
-WhatWeb no nos da mucha información
-
+WhatWeb no nos da mucha información<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Whatweb.png)
 
 Intento varios Usuarios y contraseñas pero conm ninguno acccedo, en todos me da el mensaje:
@@ -94,35 +93,30 @@ Si insertamos la inyección SQL (`admin' OR 1=1 -- -`) en donde está el texto "
 ```sql
 SELECT * FROM usuarios WHERE username = 'admin' OR 1=1 -- - AND password = 'password';
 ```
-Esto es posible porque los parámetros de la consulta no están validados:
+Esto es posible porque los parámetros de la consulta no están validados:<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Codigo%20consulta%20sin%20validar.png)
 
 
-Acceso con usuario dylan:
-
+Acceso con usuario dylan:<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20User%20access.png)
 
 Vamos a intentar entrar por SSH con este usuario y esta contraseña:
 
-Acceso por ssh con el usuario dylan:
-
+Acceso por ssh con el usuario dylan:<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20SSH%20dylan%20user.png)
 
 
 ## Escalada de privilegios
-sudo -l
+sudo -l<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20sudo-l.png)
 
-find / -perm -4000 2>/dev/null
-
+find / -perm -4000 2>/dev/null<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Suid.png)
 
-Buscamos en Gtfobins algunos de estos suid
+Buscamos en Gtfobins algunos de estos suid<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20gtfobbins%20env.png)
 Encuentro env:
-lo ejecutamos con las rutas absolutas
-
-
+lo ejecutamos con las rutas absolutas<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/Injection/Images/DockerLabs%20-%20Injection%20-%20Escalada%20de%20privilegiso.png)]
 
 DockerLabs - Injection -
