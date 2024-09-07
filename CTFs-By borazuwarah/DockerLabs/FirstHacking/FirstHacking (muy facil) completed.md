@@ -24,7 +24,7 @@ ping a la IP:
 ping -c1 172.17.0.2
 ```
 <br>
-![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Ping%20para%20ver%20conectividad.png)<br>
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Ping%20para%20ver%20conectividad.png?raw=true)<br>
 TTL: 64 linux
 
 reconocimiento
@@ -32,7 +32,7 @@ reconocimiento
 sudo nmap -sS -p- -sC -sV -Pn 172.17.0.2
 ```
 <br>
-![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Nmpa%20reconocimiento.png) <br>
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Nmpa%20reconocimiento.png?raw=true) <br>
 
 vemos que encontramos el puerto 21
 vamos a lanzar un nmap con detalles para el puerto 21
