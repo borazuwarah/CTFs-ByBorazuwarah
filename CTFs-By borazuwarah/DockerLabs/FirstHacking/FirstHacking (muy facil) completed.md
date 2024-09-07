@@ -42,7 +42,8 @@ vamos a lanzar un nmap con detalles para el puerto 21
 sudo nmap --script "vuln" -p 21 172.17.0.2
 ```
 <br>
-![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Nmap%20con%20exploit%20al%20puerto%2021.png) <br>
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Nmap%20con%20exploit%20al%20puerto%2021.png?raw=true) <br>
+
 tenemos la versión 2.3.4 y un cve:CVE-2011-2523
 vamos a intentar explotarlo con metasploit
 
@@ -66,7 +67,7 @@ metaesploit configuramos el IP destino:<br>
 
 Una vez configurado el metasploit lanzamos run para lanzar el ataque
 <br>
-![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Correr%20metaesploit.png)
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Correr%20metaesploit.png)<br>
 conseguimos acceso con el usuario root:<br>
 
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Usuario%20Root.png)
