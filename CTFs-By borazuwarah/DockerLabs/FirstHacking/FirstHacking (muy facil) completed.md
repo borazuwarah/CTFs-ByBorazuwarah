@@ -24,7 +24,8 @@ ping a la IP:
 ping -c1 172.17.0.2
 ```
 <br>
-![Ping](./Dockerlabs - FirstHacking - Ping para ver conectividad.png)
+![Ping](./Images/Dockerlabs - FirstHacking - Ping para ver conectividad.png)
+<br>
 ![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Ping%20para%20ver%20conectividad.png?raw=true)<br>
 TTL: 64 linux
 
