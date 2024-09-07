@@ -10,7 +10,7 @@ Herramientas:
 - Metasploit
 
 Máquina: <br>
-![[image]](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Firsthacking%20machine.png)
+![[image]](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Firsthacking%20machine.png) <br>
 despliegue:
 
 ```sh fold:"Despliegue de la maquina"
@@ -18,7 +18,7 @@ sudo bash auto_deploy.sh firsthacking.tar
 ```
 
 Despliegue: <br>
-![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Despliegue.png)
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Despliegue.png) <br>
 ping a la IP:
 ```sh fold:"Ping a la máquina"
 ping -c1 172.17.0.2
@@ -32,7 +32,7 @@ reconocimiento
 sudo nmap -sS -p- -sC -sV -Pn 172.17.0.2
 ```
 <br>
-![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Nmpa%20reconocimiento.png)
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Nmpa%20reconocimiento.png) <br>
 
 vemos que encontramos el puerto 21
 vamos a lanzar un nmap con detalles para el puerto 21
@@ -40,7 +40,7 @@ vamos a lanzar un nmap con detalles para el puerto 21
 sudo nmap --script "vuln" -p 21 172.17.0.2
 ```
 <br>
-![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Nmap%20con%20exploit%20al%20puerto%2021.png)
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Nmap%20con%20exploit%20al%20puerto%2021.png) <br>
 tenemos la versión 2.3.4 y un cve:CVE-2011-2523
 vamos a intentar explotarlo con metasploit
 
@@ -55,7 +55,7 @@ set RHOSTS 172.17.0.2
 run
 ```
 <br>
-![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Metasploit%20encontrando%20el%20sploit.png)
+![image](https://github.com/borazuwarah/CTFs-ByBorazuwarah/blob/main/CTFs-By%20borazuwarah/DockerLabs/FirstHacking/Images/Dockerlabs%20-%20FirstHacking%20-%20Metasploit%20encontrando%20el%20sploit.png) <br>
 
 
 metaesploit configuramos el IP destino:<br>
